@@ -169,6 +169,9 @@ header nav li a{
 
 .plan-choice .col .content{
   border-top: none;
+}
+
+.plan-choice .col:not(.large) .content{
   height: 980px;
 }
 
@@ -180,46 +183,69 @@ header nav li a{
 
 .plan-choice .col .content{
   padding: 40px 20px;
+  margin-bottom: 50px;
 }
 
-.plan-choice .content h4{
+.plan-choice .col .content h4{
   font-size: 1.5rem;
   margin-bottom: 25px;
 }
 
-.plan-choice .content span:nth-of-type(1){
+.plan-choice .col .content span:nth-of-type(1){
   display: block;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.plan-choice .content span:nth-of-type(2){
+.plan-choice .col .content span:nth-of-type(2){
   display: block;
   color: #666666;
   margin-bottom: 60px;
 }
 
-.plan-choice .content ul li{
+.plan-choice .col .content ul li{
   margin-bottom: 25px;
 }
 
-.plan-choice .content .button{
+.plan-choice .col .content .button{
   margin: 25px 0px 35px;
 }
 
-.plan-choice .content hr{
+.plan-choice .col .content hr{
   width: 16%;
   border-color: #D0D0D3;
   margin: 40px 0px 50px;
 }
 
-.plan-choice .content h5{
+.plan-choice .col .content h5{
   margin-bottom: 40px;
 }
 
-.plan-choice .content ul:last-of-type li i{
+.plan-choice .col .content ul:last-of-type li i{
   color: #0061FF;
   font-size: 1.2rem;
+}
+
+.plan-choice .col.large .content{
+  padding-top: 30px;
+}
+
+.plan-choice .col.large .content h4{
+  margin-bottom: 20px;
+}
+
+.plan-choice .col.large .content span{
+  margin-bottom: 60px;
+}
+
+.plan-choice .col.large .content p{
+  margin-right: 30%;
+}
+
+.plan-choice .col.large .content .button{
+  width: 28%;
+  float: right;
+  margin-top: 0;
 }
 
 .partner{
