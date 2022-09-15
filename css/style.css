@@ -64,6 +64,15 @@ ul.fa-ul{
   color: white;
   text-decoration: none;
 }
+
+.button.b-white{
+  background-color: white;
+  border: 1px solid black;
+}
+
+.button.b-white a{
+  color: black;
+}
 /* ---- */
 
 /* HEADER */
@@ -248,11 +257,33 @@ header nav li a{
   margin-top: 0;
 }
 
+/* >>>PARTNER */
 .partner{
+  padding: 100px 25px 150px;
+}
 
-  /* DEBUG */
-  background-color: gold;
-  height: 680px;
+.partner img{
+  width: 60%;
+}
+
+.partner .text-content{
+  float: right;
+  width: 40%;
+  padding: 50px;
+}
+
+.partner .text-content h4{
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.partner .text-content p{
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+.partner .text-content .button{
+  width: fit-content;
 }
 
 .business-feature{
