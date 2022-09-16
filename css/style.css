@@ -73,6 +73,10 @@ hr{
   width: fit-content;
 }
 
+.button:hover{
+  background-color: #0079FA;
+}
+
 .button a{
   color: white;
   text-decoration: none;
@@ -81,6 +85,10 @@ hr{
 .button.b-white{
   background-color: white;
   border: 1px solid black;
+}
+
+.button.b-white:hover a{
+  color: grey;
 }
 
 .button.b-white a{
