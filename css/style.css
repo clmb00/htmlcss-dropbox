@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: Arial, Helvetica, sans-serif
 }
@@ -185,6 +189,15 @@ header nav li a{
 }
 
 /* >>>PLAN CHOICE */
+
+/* SE VOGLIO CHE ALLO SCROLL DOWN DELLA FRECCIA NEL JUMBOTRON MI MOSTRI ANCHE L'H2 ALLORA TOGLIERE DAL COMMENTO QUESTO*/
+/* .plan-choice::before{
+  content: '';
+  display: block;
+  height: 1px;
+  margin: -1px 0 0;
+} */
+
 .plan-choice h2{
   margin: 160px 0px 60px;
 }
