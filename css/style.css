@@ -6,7 +6,7 @@
 }
 
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 ul{
@@ -328,11 +328,29 @@ header nav li a{
   height: 636px;
 }
 
+/* >>>TRY-IT */
 .try-it{
+  background-color: #B4D0E7;
+}
 
-  /* DEBUG */
-  background-color: red;
-  height: 360px;
+.try-it .small-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.try-it h2, .try-it .button{
+  margin: 140px 0;
+}
+
+.try-it h2{
+  color: #61082B;
+  width: 50%;
+}
+
+.try-it .button{
+  height: fit-content;
+  border: none;
+  padding: 10px 40px;
 }
 
 .questions{
