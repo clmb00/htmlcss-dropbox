@@ -27,7 +27,6 @@ h4{
 
 hr{
   border: 1px solid #D0D0D3;
-  margin: 40px 0px 50px;
 }
 
 /* >>> CONTAINERS */
@@ -234,6 +233,7 @@ header nav li a{
 }
 
 .plan-choice .col .content hr{
+  margin: 40px 0px 50px;
   width: 16%;
 }
 
@@ -436,11 +436,29 @@ header nav li a{
   padding: 10px 40px;
 }
 
+/* >>>QUESTIONS */
 .questions{
+  padding: 150px 25px;
+}
 
-  /* DEBUG */
-  background-color: darkred;
-  height: 730px;
+.questions > hr{
+  margin-top: 70px;
+}
+
+.questions .blocco-questions p{
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 50px 0;
+  position: relative;
+}
+
+.questions .blocco-questions p i{
+  position: absolute;
+  right: 20px;
+}
+
+.questions .blocco-questions hr{
+  margin: 0;
 }
 /* ---- */
 
