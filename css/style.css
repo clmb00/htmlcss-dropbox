@@ -66,6 +66,7 @@ h4{
   background-color: #0061FF;
   padding: 10px 20px;
   text-align: center;
+  width: fit-content;
 }
 
 .button a{
@@ -224,6 +225,7 @@ header nav li a{
 
 .plan-choice .col .content .button{
   margin: 25px 0px 35px;
+  width: 100%;
 }
 
 .plan-choice .col .content hr{
@@ -286,10 +288,6 @@ header nav li a{
 .partner .text-content p{
   line-height: 1.4;
   margin-bottom: 30px;
-}
-
-.partner .text-content .button{
-  width: fit-content;
 }
 
 /* >>>BUSINESS FEATURE */
