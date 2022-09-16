@@ -476,11 +476,17 @@ header nav li a{
   margin-top: 70px;
 }
 
-.questions .blocco-questions p{
+.questions .blocco-questions p:first-of-type{
   font-weight: bold;
   font-size: 1.1rem;
-  padding: 50px 0;
   position: relative;
+  padding: 50px 0;
+}
+
+.questions .blocco-questions p.hidden-text{
+  display: none;
+  margin-bottom: 50px;
+  line-height: 1.5;
 }
 
 .questions .blocco-questions p i{
@@ -490,6 +496,22 @@ header nav li a{
 
 .questions .blocco-questions hr{
   margin: 0;
+}
+
+.questions .blocco-questions .fa-chevron-up{
+  display: none;
+}
+
+.questions .blocco-questions:hover .fa-chevron-down{
+  display: none;
+}
+
+.questions .blocco-questions:hover .fa-chevron-up{
+  display: inline-block;
+}
+
+.questions .blocco-questions:hover .hidden-text{
+  display: block;
 }
 /* ---- */
 
