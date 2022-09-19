@@ -368,14 +368,13 @@ header nav li a{
 }
 
 /*>>> ACTIVE SQUARE */
-/* AGGIUNTO HOVER EFFECT PER VISUALIZZARLO SU TUTTI QUADRATI */
-.logos .group-four .square.square.active, .logos .group-four .square:hover{
+.logos .group-four .square.square.active{
   padding: 15px;
   height: 50%;
   border: 15px solid rgba(255, 255, 255, 0.3);
 }
 
-.logos .group-four .square.active div.content, .logos .group-four .square:hover div.content{
+.logos .group-four .square.active div.content{
   width: calc(100% - 30px);
   height: calc(100% - 30px);
 }
